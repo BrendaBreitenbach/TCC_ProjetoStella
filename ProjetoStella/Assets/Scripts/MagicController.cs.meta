@@ -3,7 +3,11 @@ guid: f2d2dd5e29ec38a4888d535e7015b893
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - animator: {instanceID: 0}
+  - magic: {fileID: 5854987758984637807, guid: 1e42bd00b4f360f40b69f8751ab5886e, type: 3}
+  - magicPrefab: {fileID: 8465767889598745352, guid: 562f5235a36adff408667b3617598854, type: 3}
+  - spawnPoint: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
