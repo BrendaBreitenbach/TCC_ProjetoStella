@@ -6,8 +6,9 @@ public class MagicController : MonoBehaviour
 {
     public Animator animator;
     public ParticleSystem magic;
+    public GameObject magicPrefab;
+    public Transform spawnPoint;
 
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -30,5 +31,13 @@ public class MagicController : MonoBehaviour
             if (magic.isPlaying)
                 magic.Stop();
         }
+    }
+
+    // Essa vai ser chamada no evento
+    public void magicAttack()
+    {
+        GameObject magic = Instantiate(magicPrefab, spawnPoint.position, spawnPoint.rotation);
+        Destroy(magic, 2f);
+
     }
 }
