@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fdcce2b0ab67fd34b9c6c320eca5ae52
+guid: 3be67f0e824c37f4a9fe35482ca4233e
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -22,14 +22,13 @@ ModelImporter:
       : position error = 290.580017 mm\n\t'B-thigh.R' : position error = 290.579895
       mm\n"
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Giant@UnarmedAttack01' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'B-thigh.L' has scale animation
-      that will be discarded.\n\t'B-shin.L' has scale animation that will be discarded.\n\t'B-foot.L'
-      has scale animation that will be discarded.\n\t'B-toe.L' has scale animation
-      that will be discarded.\n\t'B-thigh.R' has scale animation that will be discarded.\n\t'B-shin.R'
-      has scale animation that will be discarded.\n\t'B-foot.R' has scale animation
-      that will be discarded.\n\t'B-toe.R' has scale animation that will be discarded.\n"
+    animationImportWarnings: "\nClip 'Giant@Win01 - Start' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'B-shin.L' has scale animation that will
+      be discarded.\n\t'B-foot.L' has scale animation that will be discarded.\n\t'B-toe.L'
+      has scale animation that will be discarded.\n\t'B-shin.R' has scale animation
+      that will be discarded.\n\t'B-foot.R' has scale animation that will be discarded.\n\t'B-toe.R'
+      has scale animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -43,11 +42,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Giant@UnarmedAttack01
+      name: Giant@Win01 - Start
       takeName: Giant@Damage01
       internalID: -2462987048499481074
       firstFrame: 0
-      lastFrame: 59
+      lastFrame: 24
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -850,5 +849,6 @@ AssetOrigin:
   productId: 215414
   packageName: Giant Animations
   packageVersion: 
-  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Animations/Combat/Giant@UnarmedAttack01.fbx
+  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Animations/Giant@Win01
+    - Start.fbx
   uploadId: 0

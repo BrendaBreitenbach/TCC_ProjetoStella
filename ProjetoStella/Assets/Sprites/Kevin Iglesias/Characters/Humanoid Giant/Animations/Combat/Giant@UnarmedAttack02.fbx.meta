@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fdcce2b0ab67fd34b9c6c320eca5ae52
+guid: 1edfa3d1146c10a49872251b1cf86161
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -22,7 +22,7 @@ ModelImporter:
       : position error = 290.580017 mm\n\t'B-thigh.R' : position error = 290.579895
       mm\n"
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Giant@UnarmedAttack01' has import animation
+    animationImportWarnings: "\nClip 'Giant@UnarmedAttack02' has import animation
       warnings that might lower retargeting quality:\nNote: Activate translation
       DOF on avatar to improve retargeting quality.\n\t'B-thigh.L' has scale animation
       that will be discarded.\n\t'B-shin.L' has scale animation that will be discarded.\n\t'B-foot.L'
@@ -43,7 +43,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Giant@UnarmedAttack01
+      name: Giant@UnarmedAttack02
       takeName: Giant@Damage01
       internalID: -2462987048499481074
       firstFrame: 0
@@ -850,5 +850,5 @@ AssetOrigin:
   productId: 215414
   packageName: Giant Animations
   packageVersion: 
-  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Animations/Combat/Giant@UnarmedAttack01.fbx
+  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Animations/Combat/Giant@UnarmedAttack02.fbx
   uploadId: 0

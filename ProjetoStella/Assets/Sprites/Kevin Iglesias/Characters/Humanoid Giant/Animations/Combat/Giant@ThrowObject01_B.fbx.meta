@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fdcce2b0ab67fd34b9c6c320eca5ae52
+guid: d7f1263b39a835a4d81086ff31a6d6ea
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -17,19 +17,9 @@ ModelImporter:
     removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
-      copied configuration does not match position in animation file:\n\t'B-thigh.L'
-      : position error = 290.580017 mm\n\t'B-thigh.R' : position error = 290.579895
-      mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Giant@UnarmedAttack01' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'B-thigh.L' has scale animation
-      that will be discarded.\n\t'B-shin.L' has scale animation that will be discarded.\n\t'B-foot.L'
-      has scale animation that will be discarded.\n\t'B-toe.L' has scale animation
-      that will be discarded.\n\t'B-thigh.R' has scale animation that will be discarded.\n\t'B-shin.R'
-      has scale animation that will be discarded.\n\t'B-foot.R' has scale animation
-      that will be discarded.\n\t'B-toe.R' has scale animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -43,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Giant@UnarmedAttack01
+      name: Giant@ThrowObject01_B
       takeName: Giant@Damage01
       internalID: -2462987048499481074
       firstFrame: 0
-      lastFrame: 59
+      lastFrame: 68
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -67,6 +57,63 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Giant@ThrowObject01_B ThrowRockScript EVENT
+      takeName: Giant@ThrowObject01
+      internalID: 3938662874791015919
+      firstFrame: 0
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.14990811
+        functionName: SpawnRock
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.16237278
+        functionName: GrabRock
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6420537
+        functionName: ThrowRock
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9629291
+        functionName: RemoveRock
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -850,5 +897,5 @@ AssetOrigin:
   productId: 215414
   packageName: Giant Animations
   packageVersion: 
-  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Animations/Combat/Giant@UnarmedAttack01.fbx
+  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Animations/Combat/Giant@ThrowObject01_B.fbx
   uploadId: 0

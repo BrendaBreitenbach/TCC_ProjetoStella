@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fdcce2b0ab67fd34b9c6c320eca5ae52
+guid: 36b86c9f417d9d240b2a917209ad2efb
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -17,19 +17,18 @@ ModelImporter:
     removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
-      copied configuration does not match position in animation file:\n\t'B-thigh.L'
-      : position error = 290.580017 mm\n\t'B-thigh.R' : position error = 290.579895
-      mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Giant@UnarmedAttack01' has import animation
-      warnings that might lower retargeting quality:\nNote: Activate translation
-      DOF on avatar to improve retargeting quality.\n\t'B-thigh.L' has scale animation
-      that will be discarded.\n\t'B-shin.L' has scale animation that will be discarded.\n\t'B-foot.L'
-      has scale animation that will be discarded.\n\t'B-toe.L' has scale animation
-      that will be discarded.\n\t'B-thigh.R' has scale animation that will be discarded.\n\t'B-shin.R'
-      has scale animation that will be discarded.\n\t'B-foot.R' has scale animation
-      that will be discarded.\n\t'B-toe.R' has scale animation that will be discarded.\n"
+    animationImportWarnings: "\nClip 'Giant@Jump01' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'B-thigh.L' has scale animation that will
+      be discarded.\n\t'B-shin.L' has translation animation that will be discarded.\n\t'B-shin.L'
+      has scale animation that will be discarded.\n\t'B-foot.L' has translation animation
+      that will be discarded.\n\t'B-foot.L' has scale animation that will be discarded.\n\t'B-toe.L'
+      has scale animation that will be discarded.\n\t'B-thigh.R' has scale animation
+      that will be discarded.\n\t'B-shin.R' has scale animation that will be discarded.\n\t'B-foot.R'
+      has scale animation that will be discarded.\n\t'B-toe.R' has scale animation
+      that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -43,11 +42,69 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Giant@UnarmedAttack01
+      name: Giant@Jump01
       takeName: Giant@Damage01
       internalID: -2462987048499481074
       firstFrame: 0
-      lastFrame: 59
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Giant@Jump01 - Start
+      takeName: Giant@Jump01
+      internalID: 2470356724237994088
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Giant@Jump01 - Land
+      takeName: Giant@Jump01
+      internalID: 4461988917185785848
+      firstFrame: 24
+      lastFrame: 48
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -850,5 +907,5 @@ AssetOrigin:
   productId: 215414
   packageName: Giant Animations
   packageVersion: 
-  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Animations/Combat/Giant@UnarmedAttack01.fbx
+  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Animations/Movement/Giant@Jump01.fbx
   uploadId: 0

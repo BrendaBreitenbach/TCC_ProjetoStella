@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fdcce2b0ab67fd34b9c6c320eca5ae52
+guid: b209a37d349179b4bbfe2a0d344aad26
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -19,17 +19,17 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
       copied configuration does not match position in animation file:\n\t'B-thigh.L'
-      : position error = 290.580017 mm\n\t'B-thigh.R' : position error = 290.579895
+      : position error = 290.580017 mm\n\t'B-thigh.R' : position error = 290.579376
       mm\n"
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Giant@UnarmedAttack01' has import animation
+    animationImportWarnings: "\nClip 'Giant@Lose01_A - End' has import animation
       warnings that might lower retargeting quality:\nNote: Activate translation
       DOF on avatar to improve retargeting quality.\n\t'B-thigh.L' has scale animation
       that will be discarded.\n\t'B-shin.L' has scale animation that will be discarded.\n\t'B-foot.L'
       has scale animation that will be discarded.\n\t'B-toe.L' has scale animation
       that will be discarded.\n\t'B-thigh.R' has scale animation that will be discarded.\n\t'B-shin.R'
       has scale animation that will be discarded.\n\t'B-foot.R' has scale animation
-      that will be discarded.\n\t'B-toe.R' has scale animation that will be discarded.\n"
+      that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -43,11 +43,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Giant@UnarmedAttack01
+      name: Giant@Lose01_A - End
       takeName: Giant@Damage01
       internalID: -2462987048499481074
       firstFrame: 0
-      lastFrame: 59
+      lastFrame: 42
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -850,5 +850,6 @@ AssetOrigin:
   productId: 215414
   packageName: Giant Animations
   packageVersion: 
-  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Animations/Combat/Giant@UnarmedAttack01.fbx
+  assetPath: Assets/Kevin Iglesias/Characters/Humanoid Giant/Animations/Giant@Lose01_A
+    - End.fbx
   uploadId: 0
