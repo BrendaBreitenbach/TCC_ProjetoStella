@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     private CharacterController controller;
     private Animator animator;
-    private Transform camera;
+    private Transform cam;
 
     private bool isFloor;
     private bool isWalk;
@@ -19,13 +19,15 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private Transform feetStella;
     [SerializeField] private LayerMask colisaoLayer;
+    public int amoutDamage;
+
 
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
-        camera = Camera.main.transform;
+        cam = Camera.main.transform;
     }
 
     void Update()
@@ -44,22 +46,19 @@ public class PlayerController : MonoBehaviour
         }
 
         // Caminhada
-        movimento = camera.TransformDirection(movimento);
-        movimento.y = 0;
-
-        controller.Move(movimento * Time.deltaTime * velocidade);
-
-        if (movimento != Vector3.zero)
-        {
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movimento), Time.deltaTime * 10);
-            isWalk = true;
-        }
-        else
-        {
-            isWalk = false;
-        }
-
+        movimento = cam.TransformDirection(movimento); 
+        movimento.y = 0; 
+        controller.Move(movimento * Time.deltaTime * velocidade); 
+        if (movimento != Vector3.zero) 
+        { 
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movimento), Time.deltaTime * 10); 
+            isWalk = true; 
+        } else 
+        { 
+            isWalk = false; 
+        } 
         animator.SetBool("isWalk", isWalk);
+
 
         // Verifica se esta no chão
         isFloor = Physics.CheckSphere(feetStella.position, 0.3f, colisaoLayer);
@@ -111,9 +110,14 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        
         if (Input.GetButtonDown("Fire1"))
         {
-            animator.SetTrigger("attack");
+            if (gameObject.GetComponent<WandCollector>().wandCollected)
+            {
+                animator.SetTrigger("attack");
+            }
+            
         }
 
         animator.SetFloat("wingSpeed", wingSpeed);

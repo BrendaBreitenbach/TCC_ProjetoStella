@@ -9628,7 +9628,7 @@ GameObject:
   - component: {fileID: 687766439383800988}
   - component: {fileID: 4985379078008560685}
   m_Layer: 0
-  m_Name: magicShoot
+  m_Name: magicShootPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
